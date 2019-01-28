@@ -63,8 +63,8 @@ app.get('/help', (req, res) => {
   })
 })
 
-app.get('/projects', (req, res) => {
-  res.render('projects.hbs', {
+app.get('/portfolio', (req, res) => {
+  res.render('portfolio.hbs', {
     pageTitle: 'Portfolio'
   })
 })
